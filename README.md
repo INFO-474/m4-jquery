@@ -10,6 +10,7 @@ Here are some helpful resources help you start using jQuery:
 - [jQuery tutorial](http://www.w3schools.com/jquery/)
 - [jQuery effects](https://api.jquery.com/category/effects/)
 - [jQuery add elements](http://www.w3schools.com/jquery/jquery_dom_add.asp)
+
 ## Getting Started
 In order to start using the jQuery library, you'll need to read it into your `index.html` file.  You'll use the same syntax as reading in any other JavaScript file, though you'll need to **read it in before you script** in order to use its functions:
 
