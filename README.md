@@ -3,6 +3,18 @@
 ## Overview
 When working in JavaScript, it's common to leverage a pre-written set of functions called a **library**: libraries enable users to abstract away common tasks into functions that they may use across projects.  The open-source community has developed a variety of general-purpose JavaScript libraries, one of the most common of which is **jQuery**.  While jQuery has a variety of applications and purposes, we'll primarily use it for **selecting** elements, **assigning** event listeners, and **reading data**.
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Contents**
+
+- [Resources](#resources)
+- [Selecting elements](#selecting-elements)
+- [Adding/Removing elements](#addingremoving-elements)
+- [Assigning Event Handlers](#assigning-event-handlers)
+- [Animation](#animation)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## Resources
 Here are some helpful resources help you start using jQuery:
 
@@ -19,10 +31,12 @@ In order to start using the jQuery library, you'll need to read it into your `in
 <!-- index.html file -->
 <!DOCTYPE html>
   <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+    <!-- Read in JavaScript files AFTER reading in jQuery if you're using the jQuery library -->
   </head>
   <body>
   </body>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+
 
 ```
 
