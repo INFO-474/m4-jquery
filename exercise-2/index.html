@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>M4: Exercise 1</title>
+  <link href="css/main.css" rel="stylesheet" />
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+  <!-- Read in JavaScript files AFTER reading in jQuery if you're using the jQuery library -->
+  <script type='text/javascript' src="js/main.js"></script>
+</head>
+<body class="container">
+  <div>
+    <h1>Welcome to Module 4 Exercise 2</h1>
+    <p class="lead">Edit your <code>main.js</code> to write the JavaScript necessary to add the described behaviors to each button below.</p>
+  </div>
+  <div id="controls" class="boxed">
+    <h2>Controls</h2>
+    <form id="manipulator">
+      <p>
+        <label for="selector">Element to modify:</label>
+        <input type="text" name="selector" id="selector" placeholder="A jQuery selector...">
+        <label for="newContent">Content to apply:</label>
+        <input type="text" name="content" id="newContent" placeholder="Some content...">
+      </p>
+      <p>
+        <button id="change-content" type="button" class="btn btn-default">Change Content</button>
+        changes the content of the specified element
+      </p>
+      <p>
+        <button id="add-at-end" type="button" class="btn btn-default">Add At End</button>
+        adds the content at the end of the element
+      </p>
+      <p>
+        <button id="add-at-start" type="button" class="btn btn-default">Add At Start</button>
+        add the content at the beginning of the element
+      </p>
+      <p>
+        <button id="insert-before" type="button" class="btn btn-default">Insert Before</button>
+        adds the content <em>before</em> the element
+      </p>
+      <p>
+        <button id="move-after" type="button" class="btn btn-default">Move to After</button>
+        moves the "element" to be after the element selected by the "content" (we're re-using the inputs, even if the labels don't match)
+      </p>
+      <p>
+        <button id="surround-class" type="button" class="btn btn-default">Surround with Class</button>
+        surrounds the element with a <code>&lt;div&gt;</code> with a <code>class</code> specified in the "content". You can use the classes in <code>main.css</code> or add your own!
+      </p>
+      <p>
+        <button id="hide-text" type="button" class="btn btn-default">Hide Long Text</button>
+        surrounds the element with a <code>&lt;div class="hidden"&gt;</code> if its content is longer than 12 characters. <strong><em>Challenging!</em></strong>
+      </p>
+      <p>
+        <button id="remove-word" type="button" class="btn btn-default">Remove Word</button>
+        removes the element if it contains the word specified in the "content"
+      </p>
+    </form>
+  </div>
+  <main id="content" class="boxed">
+    <header>
+      <h2 id="title">Header</h2>
+      <p id="logline">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, consectetur reiciendis labore.</p>
+    </header>
+    <article>
+      <h2>Article 1</h2>
+      <section>
+        <h3>Section 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      </section>
+      <section>
+        <h3>Section 2</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est et quaerat cum, dolores, nobis beatae, accusamus eius totam cumque suscipit error quidem harum alias voluptates ducimus nostrum molestiae obcaecati eaque.</p>
+        <p>Nemo sequi, amet quo cumque necessitatibus quis. Iste porro dolores, illo aliquam qui eos reprehenderit tenetur, omnis vero, modi culpa non aut aliquid corrupti sit aspernatur! Tempore, ut quos repellendus!</p>
+      </section>
+    </article>
+
+    <article>
+      <h2>Article 2</h2>
+      <p>etc...</p>
+    </article>
+
+    <article id="appendix">
+      <section>
+        <h2>Appendix</h2>
+        <aside>You bet!</aside>
+        <ul id="list">
+          <li id="item1">Item 1</li>
+          <li id="item2">Item 2</li>
+          <li id="item3">Item 3</li>
+        </ul>
+      </section>
+    </article>
+  </main>
+</body>
+</html>

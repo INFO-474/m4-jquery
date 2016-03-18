@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>M4: Exercise 1</title>
+  <link href="css/main.css" rel="stylesheet" />
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+  <!-- Read in JavaScript files AFTER reading in jQuery if you're using the jQuery library -->
+  <script type='text/javascript' src="js/main.js"></script>
+</head>
+<body>
+    <div class="container">
+      <h1>Welcome to Module 4 Exercise 3</h1>
+      <p>To complete this exercise, edit your <code>main.js</code> file. Your aim is to practice getting and setting styles and attributes of HTML elements. Using the <code>jQuery</code> library, complete the following steps:
+      </p>
+      <div class="instructions">
+        <ul>
+          <li>Select all <code>p</code> elements and assign a click event that removes the clicked element (recall <code>this</code>)</li>
+          <li>Select the <code>circle</code>, and when it's clicked, turn it red</li>
+          <li>Each time the <code>circle</code> is clicked, change its radius from 10 to 40</li>
+          <li>Assign a mouseenter event to the <code>rect</code> element that makes it have an opacity of .5</li>
+          <li>Assign a mouseleave event to the <code>rect</code> element that makes it have an opacity of 1</li>
+        </ul>
+      </div>
+      <hr />
+      <div>
+        <p>Click to remove me!</p>
+        <p>Me too</p>
+        <p>Me too!</p>
+        <svg>
+          <circle style='fill:blue;' r="40" cx=40 cy=40></circle>
+          <rect width=100 height = 100 x = 100></rect>
+        </svg>
+  </body>
+</html>

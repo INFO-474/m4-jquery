@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>M4: Exercise 1</title>
+  <link href="css/main.css" rel="stylesheet" />
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+  <!-- Read in JavaScript files AFTER reading in jQuery if you're using the jQuery library -->
+  <script type='text/javascript' src="js/main.js"></script>
+</head>
+<body>
+    <div class="container">
+      <h1>Welcome to Module 4 Exercise 1</h1>
+      <p>To complete this exercise, edit your <code>main.js</code> file. Your aim is to practice getting and setting styles and attributes of HTML elements. Using the <code>jQuery</code> library, complete the following steps:
+      </p>
+      <div class="instructions">
+        <ul>
+          <li>Select elements with class <code>italics</code> and set their <code>font-style</code> style to <code>italics</code></li>
+          <li>Select all <code>&ltsvg&gt</code> elements and change their <code>height</code> attribute to <code>200</code></li>
+          <li>Select your first <code>&ltsvg&gt</code> and change it's <code>width</code> attribute to <code>10</code></li>
+          <li>Select even rows in the table and set their <code>background</code> style to  <code>lightgray</code></li>
+          <li>Select the <code>&ltinput&gt</code> and set the <code>placeholder</code> attribute to  <code>start typing</code></li>
+          <li>Set the <code>&ltinput&gt</code> val to <code>hello</code></li>
+        </ul>
+      </div>
+      <hr />
+      <div>
+        <text id="change">This is going to be fun</text>
+        <text class="italics">(really)</text>
+        <div>
+          <input placeholder="you'll change this text"></input>
+          <button onclick="changeText()">Submit</button>
+        </div>
+      </div>
+      <div>
+        <svg height=100 width = 100 style="background:blue"></svg>
+        <svg height=100 width = 100 style="background:red"></svg>
+      </div>
+      <table style="width:100%;  border:1px solid black;">
+      <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+      </tr>
+    </table>
+    </div>
+  </body>
+</html>

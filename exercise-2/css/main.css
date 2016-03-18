@@ -1,0 +1,53 @@
+/* generic coloring classes */
+
+.lead {
+	opacity:.7;
+}
+.big-and-purple {
+	font-size: larger;
+	font-weight: 700;
+	color: rebeccapurple;
+}
+
+.red {
+	color: red;
+}
+
+.blue {
+	color: blue;
+}
+
+.highlighted {
+	background-color: yellow;
+}
+
+.hidden {
+	display: none;
+}
+
+
+/* tree.html styling */
+
+main {
+	padding-left: 20px;
+}
+
+.boxed {
+	border: 1px solid grey;
+	border-radius: 5px;
+	padding-left: 10px;
+	margin-bottom: 1.5em;
+}
+
+
+/* for fun */
+
+.flash {
+	color: red;
+  animation: blinker 1s linear;
+  animation-iteration-count: 5;
+}
+
+@keyframes blinker {
+  50% { opacity: 0.0; }
+}

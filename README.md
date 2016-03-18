@@ -8,6 +8,7 @@ When working in JavaScript, it's common to leverage a pre-written set of functio
 **Contents**
 
 - [Resources](#resources)
+- [Getting Started](#getting-started)
 - [Selecting elements](#selecting-elements)
 - [Adding/Removing elements](#addingremoving-elements)
 - [Assigning Event Handlers](#assigning-event-handlers)
@@ -109,6 +110,8 @@ $('input').val('') // Set value to empty string
 
 ```
 
+To practice getting/setting values, see [exercise-1](exercise-1).
+
 ## Adding/Removing elements
 In addition to manipulating elements already on the screen, you can use jQuery to add or remove DOM elements.  Let's start with the easy part (removing).  You may want to `remove` an element (which would remove all of the elements _inside of_ it), or you may want to remove only the contents within an element (i.e. `empty` it out)
 
@@ -144,7 +147,7 @@ $('#my-div').before(p)
 
 ```
 
-To practice getting/setting values and adding/removing elements, see [exercise-1](exercise-1).
+To practice adding/removing elements, see [exercise-2](exercise-2).
 
 
 ## Assigning Event Handlers
@@ -169,7 +172,7 @@ $('selector').action(function() {
 })
 ```
 
-To practice assigning event handlers, see [exercise-2](exercise-2).
+To practice assigning event handlers, see [exercise-3](exercise-3).
 
 ## Animation
 A fun part of the jQuery library is it provides a set of tools for staging animations. There are a variety of built-in function, as well as the ability to write your own custom animations.  Here are a few fun/common ones:
@@ -194,4 +197,4 @@ $("#my-div").animate({
 }, 1500);
 ```
 
-To practice accessing information via object properties, and leveraging different object methods, see [exercise-3](exercise-3).
+To practice accessing information via object properties, and leveraging different object methods, see [exercise-4](exercise-4).
