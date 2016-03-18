@@ -1,7 +1,10 @@
 // Main JavaScript File
 
+// Defining the changeText variable so that it's globally available for assignment.
+var changeText;
+
 // You'll have to wait for you page to load to assign events to the elements created in your index.html File
-document.addEventListener("DOMContentLoaded", function(event) {
+$(function(){
   // Select elements with class "italics" and set their css "font-style", to "italic"
 
 
@@ -22,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 
   // Fill in this function that selects the text with id "change" and sets it text to the value in the text box.  Click "submit" to see if it worked.
-  var changeText = function() {
+  changeText = function() {
 
 
   }
