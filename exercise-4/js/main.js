@@ -2,7 +2,7 @@
 
 // You'll have to wait for you page to load to assign events to the elements created in your index.html File
 $(function() {
-  // Animate your rectangle to these new set of properties:
+  // Animate your div with id my-div to these new set of properties:
       // height of 300
       // width of 500
       // opacity of .5
