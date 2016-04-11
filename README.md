@@ -143,7 +143,7 @@ $('#my-div').prepend(p)
 $('#my-div').before(p)
 
 // Place the p element after the div in the DOM
-$('#my-div').before(p)
+$('#my-div').after(p)
 
 ```
 
